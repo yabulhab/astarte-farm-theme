@@ -6,7 +6,7 @@
 		<!-- sidebar goes here -->
 			<?php get_sidebar(); ?>
 
-		<div class="col-sm-9 blog-main">
+		<div class="col-sm-10 blog-main">
 
 		     <?php 
 		        if ( have_posts() ) : while ( have_posts() ) : the_post(); 

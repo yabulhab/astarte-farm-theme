@@ -11,14 +11,12 @@
 		</a>
 	</h2>
 
-	<p class="blog-post-content">
+	<p class="blog-post-copy">
  		<?php the_content(); ?>
 	</p>
 
 	<p class="blog-post-author">
-		<a href="#"><?php the_author(); ?></a>
+		<?php the_author(); ?>
 	</p>
-
-
 
 </div><!-- /.blog-post -->
