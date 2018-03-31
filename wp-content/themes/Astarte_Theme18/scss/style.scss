@@ -190,5 +190,40 @@ h3 {
 
 
 
+.jobs-main {
+	.blog-post-date {
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 1.5em;
+		text-transform: uppercase;
+	}
+
+	.blog-post-author {
+		display: none;
+	}
+}
+
+.blog-footer {
+	padding: 0 15vw;
+	width: 100vw;
+	height: 80px;
+	display:flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	background-color: black;
+	color: white;
+	font-weight: $light;
+	font-size: 0.9;
+
+
+	.address-section {
+		p {
+			margin-bottom: 0;
+		}
+	}
+}
 
 

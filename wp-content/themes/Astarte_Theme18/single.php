@@ -10,6 +10,8 @@
 				endwhile; endif; 
 			?>
 
+			<div>Hello I'm single.php's content</div>
+
 		</div> <!-- /.col -->
 	</div> <!-- /.row -->
 

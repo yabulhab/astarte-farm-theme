@@ -1,3 +1,5 @@
+<?php /* Template Name: recipies */ ?>
+
 
 <?php get_header(); ?>
 
@@ -15,9 +17,6 @@
 		     ?>
 
 		</div> <!-- /.blog-main -->
-
-			<div>Hello I'm page.php's content</div>
-
 		
 	</div> <!-- /.row -->
 

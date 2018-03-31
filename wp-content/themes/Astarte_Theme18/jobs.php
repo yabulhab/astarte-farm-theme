@@ -1,12 +1,11 @@
+<?php /* Template Name: jobs */ ?>
+
 
 <?php get_header(); ?>
 
 	<div class="row blog-row">
 
-		<!-- sidebar goes here -->
-			<?php get_sidebar(); ?>
-
-		<div class="col-sm-10 blog-main">
+		<div class="col-sm-12 blog-main jobs-main">
 
 		     <?php 
 		        if ( have_posts() ) : while ( have_posts() ) : the_post(); 
@@ -15,9 +14,6 @@
 		     ?>
 
 		</div> <!-- /.blog-main -->
-
-			<div>Hello I'm page.php's content</div>
-
 		
 	</div> <!-- /.row -->
 
