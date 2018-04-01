@@ -26,6 +26,21 @@
 
 				</div>
 
+				<div class="info-block-container where-to-buy">
+					<h4>where to buy</h4>		
+					<p>
+						<a href="#">
+							RIVER VALLEY CO-OP
+						</a>
+					</p>
+					<p>
+						<a href="#">
+							FAMER'S MARKET
+						</a>
+					</p>
+
+				</div>
+
 			</div>
 
 		</div> <!-- /.col -->

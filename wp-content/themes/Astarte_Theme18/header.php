@@ -16,8 +16,7 @@
 
     <!-- Custom styles for this template -->
     <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
-
-
+  
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -30,7 +29,7 @@
 
     <div class="navbar">
         
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/images/astarte_logo.png" alt="astarte-logo" id="main-logo" />
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/astarte_logo.png" alt="astarte-logo" id="main-logo" />
 
         <nav class="nav-items-container">
 
