@@ -47,6 +47,10 @@
           var scroll = $(window).scrollTop();
           $('.blog-footer').hide();
 
+          // var pathname = window.location.pathname;
+          // console.log(pathname)
+          //   $('.navbar > .nav-items-container > li > a[href="'+pathname+'"]').parent().addClass('active');
+
           $(window).on("load", function(){
             $(window).scroll(function() {
               var scroll = $(window).scrollTop();
@@ -58,6 +62,8 @@
             });
           });
         })
+
+
 
     </script>
 

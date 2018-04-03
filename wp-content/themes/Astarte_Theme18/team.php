@@ -1,14 +1,13 @@
-<?php /* Template Name: jobs */ ?>
+<?php /* Template Name: team */ ?>
 
 
 <?php get_header(); ?>
 
-	<div class="row blog-row">
+	<div class="row">
 
-		<div class="col-sm-12 blog-main jobs-main">
+		<div class="info-block-container team">
 
-			<?php $catquery = new WP_Query( 'cat=5' ); ?>
-
+			<?php $catquery = new WP_Query( 'cat=3' ); ?>
 
 		     <?php 
 		        if ( have_posts() ) : while($catquery->have_posts()) : $catquery->the_post(); 
@@ -19,5 +18,7 @@
 		</div> <!-- /.blog-main -->
 		
 	</div> <!-- /.row -->
+	
+	<?php team();?>
 
 <?php get_footer(); ?>

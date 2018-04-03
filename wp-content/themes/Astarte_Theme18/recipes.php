@@ -1,4 +1,5 @@
-<?php /* Template Name: recipies */ ?>
+<?php /* Template Name: recipes */ ?>
+
 
 
 <?php get_header(); ?>
@@ -8,10 +9,12 @@
 		<!-- sidebar goes here -->
 			<?php get_sidebar(); ?>
 
-		<div class="col-sm-10 blog-main">
+		<div class="col-sm-10 blog-main recipes">
+
+			<?php $catquery = new WP_Query( 'cat=2' ); ?>
 
 		     <?php 
-		        if ( have_posts() ) : while ( have_posts() ) : the_post(); 
+		        if ( have_posts() ) : while($catquery->have_posts()) : $catquery->the_post(); 
 		          get_template_part( 'content', get_post_format() ); 
 		        endwhile; endif; 
 		     ?>
@@ -21,3 +24,5 @@
 	</div> <!-- /.row -->
 
 <?php get_footer(); ?>
+
+

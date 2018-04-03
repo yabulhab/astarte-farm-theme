@@ -13,6 +13,8 @@ body {
 	}
 }
 
+
+
 .navbar {
 	height: $navbar-height;
 	width: 100vw;
@@ -46,6 +48,19 @@ body {
 			&:hover {
 				cursor: pointer;
 			}
+
+			&.current_page_item {
+				a {
+					text-decoration: none;
+					padding: 10px 20px;
+					border: 2px solid transparent;
+					height: 100%;
+					width: 100%;
+					border: 2px solid black;
+					color: rgba(0,0,0, 1);
+				}
+			}
+
 			a {
 				color: rgba(0,0,0, 0.5);
 				text-decoration: none;
@@ -57,7 +72,10 @@ body {
 					border: 2px solid black;
 					color: rgba(0,0,0, 1);
 				}
+
 			}
+
+
 		}
 	}
 
@@ -144,10 +162,13 @@ div .info-block-container:last-child {
 
 }
 
-.blog-main {
+.recipies {
+	display: flex;
+	flex-direction: column;
 
-/*	background-color: green;
-*/
+	img {
+
+	}
 }
 
 .blog-post-content {

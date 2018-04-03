@@ -44,6 +44,14 @@ body {
       margin-left: 15px; }
       .navbar .nav-items-container li:hover {
         cursor: pointer; }
+      .navbar .nav-items-container li.current_page_item a {
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 2px solid transparent;
+        height: 100%;
+        width: 100%;
+        border: 2px solid black;
+        color: black; }
       .navbar .nav-items-container li a {
         color: rgba(0, 0, 0, 0.5);
         text-decoration: none;
@@ -112,9 +120,9 @@ div .info-block-container:last-child {
     font-weight: 300;
     color: rgba(0, 0, 0, 0.5); }
 
-.blog-main {
-  /*	background-color: green;
-  */ }
+.recipies {
+  display: flex;
+  flex-direction: column; }
 
 .blog-post-content {
   background-color: orange; }
