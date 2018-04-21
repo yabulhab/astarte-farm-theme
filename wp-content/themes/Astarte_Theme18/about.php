@@ -9,9 +9,14 @@
 			<div class="about-wrapper">
 
 				<div class="info-block-container">
+					<h4>instagram feed</h4>		
+					<?php echo do_shortcode("[instagram-feed]"); ?>
+
+				</div>
+
+				<div class="info-block-container">
 					<h4>our no-till philosophy</h4>		
 					<p>Since 2014, we’ve believed in no-tilling. Why? Because it’s better. Lorem ipsum dolor amet sustainable meggings enamel pin gentrify cold-pressed actually, shoreditch letterpress beard. Neutra semiotics pug, meh hammock hella distillery vinyl asymmetrical. Selvage meh sartorial snackwave green juice live-edge pour-over direct trade 8-bit 3 wolf moon. Fanny pack lyft narwhal migas, gochujang leggings poutine banh mi. </p>
-				
 				</div>
 
 				<div class="info-block-container">
