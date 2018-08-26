@@ -61,7 +61,22 @@
               }
             });
           });
+          
+          $('.navbar-mobile').slideToggle(200);
+          
+          $('.toggle-nav').click(function(e) {
+            console.log("that tickles!")
+            $('.navbar-mobile').slideToggle(200);
+            e.preventDefault();
+          });
+  
+          $('#nav-icon1').click(function(){
+            $(this).toggleClass('open');
+            console.log("I'm open");
+           });
+
         })
+
 
 
 
